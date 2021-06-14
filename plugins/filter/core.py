@@ -7,7 +7,6 @@ from __future__ import absolute_import, division, print_function
 __metaclass__ = type
 
 
-
 def to_dict(sequence, key_name='name'):
     '''Convert a list to a dictionary.
     '''
