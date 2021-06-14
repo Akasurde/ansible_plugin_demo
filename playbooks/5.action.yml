@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Read encrypted file
+      read_file:
+        encrypted_file: './supersecretfile'
+

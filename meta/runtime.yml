@@ -1,0 +1,7 @@
+---
+requires_ansible: '>=2.9.17'
+
+plugin_routing:
+  action:
+    read_file:
+      redirect: akasurde.demo.read_file 
