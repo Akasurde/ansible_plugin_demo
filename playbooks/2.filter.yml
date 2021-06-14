@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  vars:
+    dns_servers:
+      - 8.8.8.8
+      - 9.9.9.9
+      - 1.1.1.1
+  tasks:
+    - name: Demo for filter
+      debug:
+        msg: "Convert {{ dns_servers }} to {{ dns_servers | akasurde.demo.to_dict(key_name='name') }}"
+
