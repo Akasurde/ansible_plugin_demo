@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Demo for lookup plugin
+      debug:
+        msg: "This is random UUID : {{ lookup('akasurde.demo.random_uuid') }}" 
+
+    - name: Demo for lookup plugin in uppercase
+      debug:
+        msg: "This is random UUID in uppercase : {{ lookup('akasurde.demo.random_uuid', upper=True) }}" 
