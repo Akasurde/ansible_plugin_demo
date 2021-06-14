@@ -1,0 +1,19 @@
+namespace: akasurde
+name: demo
+version: 1.0.0
+readme: README.md
+authors:
+- Abhijeet Kasurde <akasurde@redhat.com>
+description: Demo collection to show Ansible plugin capabilities
+license:
+- GPL-3.0-or-later
+license_file: 'LICENSE'
+tags: []
+dependencies: {}
+repository: https://github.com/Akasurde/ansible_plugin_demo
+documentation: https://github.com/Akasurde/ansible_plugin_demo/tree/main/docs
+
+homepage: https://github.com/Akasurde/ansible_plugin_demo
+
+# The URL to the collection issue tracker
+issues: https://github.com/Akasurde/ansible_plugin_demo/issues
