@@ -1,0 +1,6 @@
+ip,user,connection,become
+192.168.10.1,root,ssh,sudo
+192.168.10.2,root,ssh,pbrun
+192.168.10.3,admin,winrm,sudo
+192.168.10.4,root,ssh,sudo
+192.168.10.5,root,ssh,sudo
